@@ -1,81 +1,81 @@
 [ {
   "urlPattern" : "/pages/AdminDash/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/Common/**",
-  "permission" : "PermitAll",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Everyone" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/Dashboard/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
-  "httpMethod" : null
-}, {
-  "urlPattern" : "/pages/Leads/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
-  "httpMethod" : null
-}, {
-  "urlPattern" : "/pages/Locations/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
-  "httpMethod" : null
-}, {
-  "urlPattern" : "/pages/Login/**",
-  "permission" : "PermitAll",
-  "roles" : [ ],
-  "httpMethod" : null
-}, {
-  "urlPattern" : "/pages/Main/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
-  "httpMethod" : null
-}, {
-  "urlPattern" : "/pages/SalesGrowth/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/footer/**",
-  "permission" : "PermitAll",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Everyone" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/header/**",
-  "permission" : "PermitAll",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Everyone" ],
+  "httpMethod" : null
+}, {
+  "urlPattern" : "/pages/Leads/**",
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/leadsList/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/leftnav/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
+  "httpMethod" : null
+}, {
+  "urlPattern" : "/pages/Locations/**",
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
+  "httpMethod" : null
+}, {
+  "urlPattern" : "/pages/Login/**",
+  "permission" : "Role",
+  "roles" : [ "Everyone" ],
+  "httpMethod" : null
+}, {
+  "urlPattern" : "/pages/Main/**",
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/rightnav/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
+  "httpMethod" : null
+}, {
+  "urlPattern" : "/pages/SalesGrowth/**",
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/salesgrowthfilter/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/systemvitalsfilter/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 }, {
   "urlPattern" : "/pages/topnav/**",
-  "permission" : "Authenticated",
-  "roles" : [ ],
+  "permission" : "Role",
+  "roles" : [ "Authenticated" ],
   "httpMethod" : null
 } ]
